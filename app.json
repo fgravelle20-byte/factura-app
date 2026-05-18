@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Factura",
+    "slug": "factura-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080808"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.factura.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Factura a besoin d'accéder à vos photos pour ajouter votre logo.",
+        "NSCameraUsageDescription": "Factura peut utiliser la caméra pour photographier votre logo."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#080808"
+      },
+      "package": "com.factura.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Factura a besoin d'accéder à vos photos pour ajouter votre logo."
+        }
+      ]
+    ],
+    "scheme": "factura",
+    "extra": {
+      "supabaseUrl": "https://wgmpakeyywbbdoghvkey.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndnbXBha2V5eXdiYmRvZ2h2a2V5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5NjczMDMsImV4cCI6MjA5NDU0MzMwM30.65aT1mK_hxB6ZnHTH6Rua5l767o-DfbVSSR6WgItgIQ",
+      "stripePublishableKey": "VOTRE_STRIPE_KEY",
+      "eas": {
+        "projectId": "a25b4f33-8ada-4f02-b0a4-0f4a93228fa1"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "owner": "cartelmtl"
+  }
+}
