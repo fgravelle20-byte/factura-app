@@ -1,0 +1,26 @@
+{
+    "cli":  {
+                "version":  "\u003e= 19.0.1",
+                "appVersionSource":  "remote"
+            },
+    "build":  {
+                  "development":  {
+                                      "developmentClient":  true,
+                                      "distribution":  "internal"
+                                  },
+                  "preview":  {
+                                  "distribution":  "internal"
+                              },
+                  "production":  {
+                                     "autoIncrement":  true,
+                                     "env":  {
+                                                 "NPM_CONFIG_LEGACY_PEER_DEPS":  "true"
+                                             }
+                                 }
+              },
+    "submit":  {
+                   "production":  {
+
+                                  }
+               }
+}
