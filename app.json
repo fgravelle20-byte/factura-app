@@ -41,7 +41,8 @@
         {
           "photosPermission": "Factura a besoin d'accéder à vos photos pour ajouter votre logo."
         }
-      ]
+      ],
+      "expo-font"
     ],
     "scheme": "factura",
     "extra": {
@@ -49,12 +50,12 @@
       "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndnbXBha2V5eXdiYmRvZ2h2a2V5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5NjczMDMsImV4cCI6MjA5NDU0MzMwM30.65aT1mK_hxB6ZnHTH6Rua5l767o-DfbVSSR6WgItgIQ",
       "stripePublishableKey": "VOTRE_STRIPE_KEY",
       "eas": {
-        "projectId": "a25b4f33-8ada-4f02-b0a4-0f4a93228fa1"
+        "projectId": "90bd088b-fbcf-404f-b704-e1679ebe3269"
       },
       "router": {
         "origin": false
       }
     },
-    "owner": "cartelmtl"
+    "owner": "facturainc"
   }
 }
